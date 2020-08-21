@@ -1,0 +1,178 @@
+*,*::before,  *::after {box-sizing: border-box;}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 200;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color: #3E2723;
+    margin: 25px 0;
+}
+
+
+
+p {
+    font-size: 17px;
+}
+
+#colorBlue {
+    color: blue;
+    background: white;
+    text-align: center;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+
+#colorBlue:hover {
+    opacity: 0.6;
+}
+
+#colorGrey {
+    color: #444444 ;
+    background: white;
+    text-align: center;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+
+#colorGrey:hover {
+    opacity: 0.6;
+}
+
+#colorYellow {
+    color: #D2AD32 ;
+    background: white;
+    text-align: center;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+
+#colorYellow:hover {
+    opacity: 0.6;
+}
+
+
+#colorGreen {
+    color: green ;
+    background: white;
+    text-align: center;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+
+#colorGreen:hover {
+    opacity: 0.6;
+}
+
+#colorRed {
+    color: red;
+    background: white;
+    text-align: center;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+
+#colorRed:hover {
+    opacity: 0.6;
+}
+
+.roundtable {
+    border-radius: 20px;
+    padding: 0;
+    /*display: inline-table !important;*/
+    margin-bottom: 0;
+}
+
+.roundtotal1 {
+    border: 0.5px solid blue;
+    border-radius: 20px;
+    background:blue ;
+    padding: 7px;
+}
+.roundtotal2 {
+    border: 0.5px solid #444444;
+    border-radius: 20px;
+    background:#A9A9A9 ;
+    padding: 7px;
+}
+.roundtotal3 {
+    border: 0.5px solid #D2AD32;
+    border-radius: 20px;
+    background:goldenrod ;
+    padding: 7px;
+}
+.roundtotal4 {
+    border: 0.5px solid green;
+    border-radius: 20px;
+    background:green ;
+    padding: 7px;
+}
+.roundtotal5 {
+    border: 0.5px solid red;
+    border-radius: 20px;
+    background:red ;
+    padding: 7px;
+}
+
+.totalstyle{
+    display: flex;
+    justify-content: center;
+}
+
+.totalstyle p {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+th {
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: 'Kaushan Script', cursive;
+    background: #555555;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.tablestyle{
+
+    border-radius: 20px;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 15px 15px 15px;
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        height: 100vh !important;
+        overflow: hidden;
+    }
+    .tablestyle{
+         height: 70vh; overflow: auto;
+    }
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    background: #f3f3f3;
+}
+
+footer a{
+    text-decoration: none !important;
+}
